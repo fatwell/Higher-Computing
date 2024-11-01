@@ -24,9 +24,9 @@ def ReccomendationMessage(SizeDog, totalWeight):
     
     if SizeDog == "medium" and totalWeight > 330 and totalWeight < 440:
         WeightMessage = "The weight of food is suitable for your medium dog"
-    if SizeDog == "small" and totalWeight > 110 and totalWeight < 140:
+    elif SizeDog == "small" and totalWeight > 110 and totalWeight < 140:
         WeightMessage = "The weight of food is suitable for your small dog"
-    if SizeDog == "large" and totalWeight > 690 and totalWeight < 900:
+    elif SizeDog == "large" and totalWeight > 690 and totalWeight < 900:
         WeightMessage = "The weight of food is suitable for your large dog"
     else:
         WeightMessage = "This weight of food is not recommended for the size of your dog"
