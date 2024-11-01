@@ -2,7 +2,6 @@
 #fatwell
 #Step 1
 
-
 def valid_food_weight():
     totalWeight= int(0)
     ContainerWeights = []
