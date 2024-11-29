@@ -1,0 +1,39 @@
+1604.css
+#section p {
+	text-color: green;
+}
+
+#div ol li{ 
+	color: blue;
+}
+
+#header h2{
+	background-color:yellow;
+}
+
+#form input{
+	 border-style: solid;
+	border-color: red;
+}
+
+h1, h2{
+	font-style: italic;
+    font-weight: bold;
+}
+
+a, button{
+	text-color:purple;
+}
+
+pre, code {
+	background-color: lightblue;
+}
+
+#nav a {
+	text-color:#06402B;
+}
+
+header, footer {
+	background-color: #D3D3D3
+}
+	
